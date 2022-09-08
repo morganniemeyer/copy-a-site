@@ -64,3 +64,6 @@ main {
     column-gap: 5px;
     row-gap: 5px;
 }
+.particle {
+    background: #68826b;
+}
