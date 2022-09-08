@@ -63,6 +63,7 @@ main {
     grid-template-columns: 1fr 1fr;
     column-gap: 5px;
     row-gap: 5px;
+    padding: 3px;
 }
 .particle {
     background: #68826b;
@@ -93,4 +94,20 @@ main {
 
 .newstype {
     font-size: 9px;
+}
+
+.author {
+    font-style: italic;
+    color: rgb(37, 37, 37);
+    font-size: smaller;
+}
+
+.author2 {
+    font-style: italic;
+    color: rgb(37, 37, 37);
+    font-size: 9px;
+}
+
+.textholder {
+    padding: 5px;
 }
