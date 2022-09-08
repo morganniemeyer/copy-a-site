@@ -1,35 +1,113 @@
-:root {
-    --background: rgb(224, 234, 247);
-    --header-background: white;
-    --footer-background: rgb(243, 242, 242);
-}
+/*color palette 
+base red: AE472C
+baby pink: EFC8BE
+Laurel Green(light green): #C6CCB2
+XANADU(MIDSOFT GREEN):68826b
+SACRAMENTO GREEN:093824
+STEELTEAL: 77918F
+LAVENDER WEB: E5EAFA
+AQUAMARINE: 84FED3
+MEDIUM SPRING: 21FDB0
+DARK JUNGLE: 00140D*/
 
 body {
-    height: 100vh;
-    font-family: 'Rubik', san-serif;
-    background: var(--background);
+    background: #ae472c;
     display: grid;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: 40px 40px 15% 48% 30%;
+    row-gap: 5px;
 }
 
 header {
-    position: sticky;
-    top: 0;
-    display: flex;
-    align-items: center;
-    background-color: var(--header-background);
+    background: #efc8be;
+    display: grid;
+    grid-template-columns: 20% 40% 5% 10% 12% 5% 5%;
+    column-gap: 5px;
+}
+#nav-bar {
+    background: #efc8be;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 3fr;
+    column-gap: 5px;
 }
 
+#ad {
+    background: #efc8be;
+    justify-content: center;
+}
 main {
-    padding: 20px;
+    background: #efc8be;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
 }
 
-footer {
-    position: sticky;
-    bottom: 0;
-    padding: 7px 20px;
-    font-size: .8em;
-    display: flex;
-    justify-content: flex-end;
-    background-color: var(--footer-background);
+#add-articles {
+    background: #efc8be;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+.linkable {
+    background: #c6ccb2;
+}
+
+.article {
+    background: #68826b;
+    height: 220px;
+}
+
+#article-holder {
+    background: #c6ccb2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+    row-gap: 5px;
+    padding: 3px;
+}
+.particle {
+    background: #68826b;
+}
+
+.placeholder-image {
+    object-fit: cover;
+    height: 50%;
+    width: 100%;
+}
+
+.arttext {
+    font-size: 11px;
+}
+.article-title {
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.article-title2 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.big-art {
+    font-size: 15px;
+}
+
+.newstype {
+    font-size: 9px;
+}
+
+.author {
+    font-style: italic;
+    color: rgb(37, 37, 37);
+    font-size: smaller;
+}
+
+.author2 {
+    font-style: italic;
+    color: rgb(37, 37, 37);
+    font-size: 9px;
+}
+
+.textholder {
+    padding: 5px;
 }
