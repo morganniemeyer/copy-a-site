@@ -71,4 +71,22 @@ main {
 .placeholder-image {
     object-fit: cover;
     height: 50%;
+    width: 100%;
+}
+
+p {
+    font-size: 11px;
+}
+.article-title {
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.article-title2 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.big-art {
+    font-size: 15px;
 }
