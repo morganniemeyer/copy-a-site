@@ -13,7 +13,7 @@ DARK JUNGLE: 00140D*/
 body {
     background: #ae472c;
     display: grid;
-    grid-template-rows: 40px 40px 15% 35% 25%;
+    grid-template-rows: 40px 40px 15% 48% 30%;
     row-gap: 5px;
 }
 
@@ -54,7 +54,7 @@ main {
 
 .article {
     background: #68826b;
-    height: 190px;
+    height: 220px;
 }
 
 #article-holder {
@@ -66,4 +66,9 @@ main {
 }
 .particle {
     background: #68826b;
+}
+
+.placeholder-image {
+    object-fit: cover;
+    height: 50%;
 }
